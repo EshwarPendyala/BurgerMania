@@ -1,0 +1,64 @@
+#logo{
+    position: relative;
+    width: 65%;
+    left: 15%;
+}
+
+#burger{
+    position: relative;
+    width: 65%;
+    left: 15%;
+}
+
+body{
+    background-color: rgb(182, 10, 10);
+}
+
+.numberAndSubmit{
+  position: absolute;
+  display: block;
+}
+
+@media(min-width:300px)
+{
+  .numberAndSubmit{
+    left: 26.5%;
+  }
+}
+
+@media(min-width:600px)
+{
+  .numberAndSubmit{
+    top: 50%;
+    left: 35%;
+  }
+}
+
+@media(min-width:800px)
+{
+  .numberAndSubmit{
+    top: 30%;
+    left: 35%;
+  }
+}
+
+@media(min-width:900px){
+  .numberAndSubmit{
+    top: 40%;
+    left: 40%;
+  }
+}
+
+.numberAndSubmit input{
+  font-size: x-large;
+  border: none;
+  width: 225px;
+  background: transparent;
+  outline: none;
+  
+}
+
+.numberAndSubmit button{
+  position: inherit;
+  left: 40%;
+}
