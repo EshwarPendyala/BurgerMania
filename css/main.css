@@ -44,7 +44,7 @@ body{
 
 @media(min-width:900px){
   .numberAndSubmit{
-    top: 40%;
+    top: 35%;
     left: 40%;
   }
 }
@@ -55,17 +55,23 @@ body{
   width: 225px;
   background: transparent;
   outline: none;
-  text-align: center;
-  
+  text-align: center;  
+  color: aliceblue;
+}
+
+::placeholder{
+  color: aliceblue;
 }
 
 .numberAndSubmit button{
   position: inherit;
   width: 60%;
-  height: 65%;
-  background-color: rgb(157, 45, 42);
+  height: 90%;
+  background-color: rgb(131, 161, 58);
   left: 20.5%;
   border-radius: 10px;
   font-size: x-large;
   outline: none;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  text-align: center;
 }
