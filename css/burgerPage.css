@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(10, 176, 182);
+}
+
+#topPanel{
+    text-align: center;
+}
+
+#topPanel img{
+    width: 35%;
+}
+
+.burgerPanel img{
+    position: relative;
+    width: 15%;
+    left: 20%;
+}
+
+.submitPanel{
+    text-align: center;
+}
+
+.submitPanel button{
+    background-color: rgb(138, 182, 26);
+    border-radius: 10px;
+    font-size: x-large;
+    outline: none;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-align: center;
+}
