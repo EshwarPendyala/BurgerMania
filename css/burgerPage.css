@@ -38,28 +38,28 @@ body{
 
 #bg2{
     position: absolute;
-    top: 52.5%;
+    top: 50.5%;
     left: 6.5%;
     font-size: x-large;
 }
 
 #bg3{
     position: absolute;
-    top: 80.5%;
+    top: 77%;
     left: 6.5%;
     font-size: x-large;
 }
 
 #bg4{
     position: absolute;
-    top: 110%;
+    top: 104%;
     left: 3.5%;
     font-size: x-large;
 }
 
 #bg5{
     position: absolute;
-    top: 137.5%;
+    top: 130.5%;
     left: 3.5%;
     font-size: x-large;
 }
@@ -68,4 +68,119 @@ body{
     color: rgb(232, 188, 80);
     font-weight: bold;
     font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#typeOfBurger1{
+    position: absolute;
+    left: 40%;
+    top: 22.5%;
+    font-size: xx-large;
+    width: 20%;
+}
+
+#supremeBurgerQuantity{
+    position: absolute;
+    left: 62.5%;
+    top: 22.5%;
+}
+
+#addSupremeBurger{
+    position: absolute;
+    left: 75%;
+    top: 22%;
+    background-color: rgb(232, 188, 80);
+    font-size: medium;
+    border-radius: 10px;
+}
+
+#typeOfBurger2{
+    position: absolute;
+    left: 40%;
+    top: 50.5%;
+    font-size: xx-large;
+    width: 20%;
+}
+
+#surpriseBurgerQuantity{
+    position: absolute;
+    left: 62.5%;
+    top: 50.5%;
+}
+
+#addSurpriseBurger{
+    position: absolute;
+    left: 75%;
+    top: 50%;
+    background-color: rgb(232, 188, 80);
+    font-size: medium;
+    border-radius: 10px;
+}
+
+#typeOfBurger3{
+    position: absolute;
+    left: 40%;
+    top: 75.5%;
+    font-size: xx-large;
+    width: 20%;
+}
+
+#whopperBurgerQuantity{
+    position: absolute;
+    left: 62.5%;
+    top: 75.5%;
+}
+
+#addWhopperBurger{
+    position: absolute;
+    left: 75%;
+    top: 75%;
+    background-color: rgb(232, 188, 80);
+    font-size: medium;
+    border-radius: 10px;
+}
+
+#typeOfBurger4{
+    position: absolute;
+    left: 40%;
+    top: 105.5%;
+    font-size: xx-large;
+    width: 20%;
+}
+
+#chilliCheeseBurgerQuantity{
+    position: absolute;
+    left: 62.5%;
+    top: 105.5%;
+}
+
+#addChilliCheeseBurger{
+    position: absolute;
+    left: 75%;
+    top: 105%;
+    background-color: rgb(232, 188, 80);
+    font-size: medium;
+    border-radius: 10px;
+}
+
+#typeOfBurger5{
+    position: absolute;
+    left: 40%;
+    top: 130.5%;
+    font-size: xx-large;
+    width: 20%;
+}
+
+#tandoorGrillBurgerQuantity{
+    position: absolute;
+    left: 62.5%;
+    top: 130.5%;
+}
+
+#addTandoorGrillBurger{
+    position: absolute;
+    left: 75%;
+    top: 130%;
+    background-color: rgb(232, 188, 80);
+    font-size: medium;
+    border-radius: 10px;
 }
