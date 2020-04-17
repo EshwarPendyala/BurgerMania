@@ -164,3 +164,7 @@ $('addTandoorGrillBurger').addEventListener('click', function () {
         }
     }
 });
+
+$('viewCartButton').addEventListener('click',function(){
+    alert(JSON.stringify(burgerArray));
+});
