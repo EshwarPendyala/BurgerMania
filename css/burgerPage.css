@@ -28,3 +28,44 @@ body{
     font-family: "Comic Sans MS", cursive, sans-serif;
     text-align: center;
 }
+
+#bg1{
+    position: absolute;
+    top: 22.5%;
+    left: 6.5%;
+    font-size: x-large;
+}
+
+#bg2{
+    position: absolute;
+    top: 52.5%;
+    left: 6.5%;
+    font-size: x-large;
+}
+
+#bg3{
+    position: absolute;
+    top: 80.5%;
+    left: 6.5%;
+    font-size: x-large;
+}
+
+#bg4{
+    position: absolute;
+    top: 110%;
+    left: 3.5%;
+    font-size: x-large;
+}
+
+#bg5{
+    position: absolute;
+    top: 137.5%;
+    left: 3.5%;
+    font-size: x-large;
+}
+
+#bg1,#bg2,#bg3,#bg4,#bg5{
+    color: rgb(232, 188, 80);
+    font-weight: bold;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
