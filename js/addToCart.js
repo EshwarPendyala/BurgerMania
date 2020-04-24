@@ -80,7 +80,7 @@ $('addSurpriseBurger').addEventListener('click', function () {
 
 $('addWhopperBurger').addEventListener('click', function () {
     var burger = new Burger();
-    burger.burgerType = 'Surprise Burger';
+    burger.burgerType = 'Whopper Burger';
     burger.burgerCategory = $('typeOfBurger3').value;
     burger.burgerQuantity = $('whopperBurgerQuantity').value;
 
@@ -166,5 +166,6 @@ $('addTandoorGrillBurger').addEventListener('click', function () {
 });
 
 $('viewCartButton').addEventListener('click',function(){
-    alert(JSON.stringify(burgerArray));
+    localStorage.setItem('burgerArray',JSON.stringify(burgerArray));
+    window.location.href = "./displayCart.html";
 });
