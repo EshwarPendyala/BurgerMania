@@ -1,9 +1,14 @@
-var burgerArray = localStorage.getItem('burgerArray');
 function $(id){
     return document.getElementById(id);
 }
 
-burgerList = JSON.parse(burgerArray);
+burgerList = JSON.parse(localStorage.getItem('burgerArray'));
+if(burgerList.length === 0)
+{
+    var cartTable = $("cartTable");
+    cartTable.innerHTML = "NO ITEMS IN CART";
+    $('placeOrder').style.visibility = 'hidden';
+}
 var cartTable = $("cartTable");
 var td6;
 for (var i = 0; i < burgerList.length; i++) {
@@ -32,8 +37,12 @@ for(var i=0; i<cells.length;i++)
         
             var delIndex = this.parentNode.rowIndex;
             burgerList.slice(delIndex);
-            alert(burgerList);
             $('cartTable').deleteRow(this.parentNode.rowIndex);
+            if(cells.length === 0)
+            {
+                $('cartTable').innerHTML = "NO ITEMS IN CART";
+                $('placeOrder').style.visibility = 'hidden';
+            }
         }
     }
 }
