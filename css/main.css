@@ -11,7 +11,8 @@
 }
 
 body{
-    background-color: rgb(10, 176, 182);
+    /* background-color: rgb(10, 176, 182); */
+    background-color: rgba(245, 28, 28, 0.788);
 }
 
 .numberAndSubmit{
