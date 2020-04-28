@@ -4,17 +4,10 @@
     text-align: left;
     border-spacing: 15px;
     position:fixed;
-    margin-left:-150px; /* half of width */
-    margin-top:-150px;  /* half of height */
+    margin-left:-150px;
+    margin-top:-150px;
     top:50%;
     left:50%;
-}
-
-#cartTable tr:nth-child(even) {
-  background-color: rgb(233, 13, 13);
-}
-#cartTable tr:nth-child(odd) {
-  background-color: rgb(50, 218, 50);
 }
 
 #placeOrder{
@@ -24,3 +17,17 @@
     top:80%;
     left:60%;
 }
+
+#cartTable td:last-child{
+    color: red;
+    font-weight: bolder;
+    font-size: large;
+}
+body {
+  background-color: #3e94ec;
+  font-family: "Roboto", helvetica, arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+}
+
