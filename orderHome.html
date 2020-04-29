@@ -7,74 +7,130 @@
     <title>BurgerPage</title>
 </head>
 <body>
+    
     <div id="topPanel">
-        <img src="./images/pageHeadingImage.png" alt="Select Your Order">
+        <img src="./images/pageHeadingImage.png" alt="Select Your Order" id="topPanel">
     </div>
-    <div class="burgerPanel">
-        <div id="SupremeBurger">
-            <div id="bg1">Supreme Burger</div>
-            <img src="./images/burgers/supremeBurger.png" alt="SupremeBurger">
-            <select id="typeOfBurger1">
-                <option value="None" selected>None</option>
-                <option value="VEG">VEG</option>
-                <option value="EGG">EGG</option>
-                <option value="CHICKEN">CHICKEN</option>
-            </select>
-            <input type="number" id="supremeBurgerQuantity" min="0" placeholder="Quantity">
-            <button id="addSupremeBurger">Add To Cart</button>
-        </div>
-        <div id="SurpriseBurger">
-            <div id="bg2">Surprise Burger</div>
-            <img src="./images/burgers/surpriseBurger.png" alt="SurpriseBurger">
-            <select id="typeOfBurger2">
-                <option value="None" selected>None</option>
-                <option value="VEG">VEG</option>
-                <option value="EGG">EGG</option>
-                <option value="CHICKEN">CHICKEN</option>
-            </select>
-            <input type="number" id="surpriseBurgerQuantity" min="0" placeholder="Quantity">
-            <button id="addSurpriseBurger">Add To Cart</button>
-        </div>
-        <div id="WhopperBurger">
-            <div id="bg3">Whopper Burger</div>
-            <img src="./images/burgers/whopperBurger.png" alt="WhopperBurger">
-            <select id="typeOfBurger3">
-                <option value="None" selected>None</option>
-                <option value="VEG">VEG</option>
-                <option value="EGG">EGG</option>
-                <option value="CHICKEN">CHICKEN</option>
-            </select>
-            <input type="number" id="whopperBurgerQuantity" min="0" placeholder="Quantity">
-            <button id="addWhopperBurger">Add To Cart</button>
-        </div>
-        <div id="ChilliCheeseBurger">
-            <div id="bg4">Chilli Cheese Burger</div>
-            <img src="./images/burgers/chilliCheseBurger.png" alt="ChilliCheeseBurger">
-            <select id="typeOfBurger4">
-                <option value="None" selected>None</option>
-                <option value="VEG">VEG</option>
-                <option value="EGG">EGG</option>
-                <option value="CHICKEN">CHICKEN</option>
-            </select>
-            <input type="number" id="chilliCheeseBurgerQuantity" min="0" placeholder="Quantity">
-            <button id="addChilliCheeseBurger">Add To Cart</button>
-        </div>
-        <div id="TandoorGrillBurger">
-            <div id="bg5">Tandoor Grill Burger</div>
-            <img src="./images/burgers/tandoorGrillBurger.png" alt="TandoorGrillBurger">
-            <select id="typeOfBurger5">
-                <option value="None" selected>None</option>
-                <option value="VEG">VEG</option>
-                <option value="EGG">EGG</option>
-                <option value="CHICKEN">CHICKEN</option>
-            </select>
-            <input type="number" id="tandoorGrillBurgerQuantity" min="0" placeholder="Quantity">
-            <button id="addTandoorGrillBurger">Add To Cart</button>
-        </div>
-        <div class="submitPanel">
-            <button id="viewCartButton">View Cart</button>
-        </div>
+    <div>
+        <button id="viewCartButton">
+            View Cart
+        </button>
     </div>
+    <table>
+        <tr>
+            <td>
+                <p>Supreme Burger</p>
+            </td>
+            <td>
+                <img src="./images/burgers/supremeBurger.png" alt="Supreme Burger" style="width: 40%; position: relative; left: 40%;">
+            </td>
+            <td>
+                <select id="typeOfBurger1">
+                    <option value="None" selected>None</option>
+                    <option value="VEG">VEG</option>
+                    <option value="EGG">EGG</option>
+                    <option value="CHICKEN">CHICKEN</option>
+                </select>
+            </td>
+            <td>
+                <input type="number" id="supremeBurgerQuantity" min="0" placeholder="Quantity">
+            </td>
+            <td>
+                <button id="addSupremeBurger">Add To Cart</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Surprise Burger
+            </td>
+            <td>
+                <img src="./images/burgers/surpriseBurger.png" alt="Supreme Burger" style="width: 40%; position: relative; left: 40%;">
+            </td>
+            <td>
+                <select id="typeOfBurger2">
+                    <option value="None" selected>None</option>
+                    <option value="VEG">VEG</option>
+                    <option value="EGG">EGG</option>
+                    <option value="CHICKEN">CHICKEN</option>
+                </select>
+            </td>
+            <td>
+                <input type="number" id="surpriseBurgerQuantity" min="0" placeholder="Quantity">
+            </td>
+            <td>
+                <button id="addSurpriseBurger">Add To Cart</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Whopper Burger
+            </td>
+            <td>
+                <img src="./images/burgers/whopperBurger.png" alt="Supreme Burger"
+                    style="width: 40%; position: relative; left: 40%;">
+            </td>
+            <td>
+                <select id="typeOfBurger3">
+                    <option value="None" selected>None</option>
+                    <option value="VEG">VEG</option>
+                    <option value="EGG">EGG</option>
+                    <option value="CHICKEN">CHICKEN</option>
+                </select>
+            </td>
+            <td>
+                <input type="number" id="whopperBurgerQuantity" min="0" placeholder="Quantity">
+            </td>
+            <td>
+                <button id="addWhopperBurger">Add To Cart</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Chilli Cheese Burger
+            </td>
+            <td>
+                <img src="./images/burgers/chilliCheseBurger.png" alt="Supreme Burger"
+                    style="width: 40%; position: relative; left: 40%;">
+            </td>
+            <td>
+                <select id="typeOfBurger4">
+                    <option value="None" selected>None</option>
+                    <option value="VEG">VEG</option>
+                    <option value="EGG">EGG</option>
+                    <option value="CHICKEN">CHICKEN</option>
+                </select>
+            </td>
+            <td>
+                <input type="number" id="chilliCheeseBurgerQuantity" min="0" placeholder="Quantity">
+            </td>
+            <td>
+                <button id="addChilliCheeseBurger">Add To Cart</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Tandoor Grill Burger
+            </td>
+            <td>
+                <img src="./images/burgers/tandoorGrillBurger.png" alt="Supreme Burger"
+                    style="width: 40%; position: relative; left: 40%;">
+            </td>
+            <td>
+                <select id="typeOfBurger5">
+                    <option value="None" selected>None</option>
+                    <option value="VEG">VEG</option>
+                    <option value="EGG">EGG</option>
+                    <option value="CHICKEN">CHICKEN</option>
+                </select>
+            </td>
+            <td>
+                <input type="number" id="tandoorGrillBurgerQuantity" min="0" placeholder="Quantity">
+            </td>
+            <td>
+                <button id="addTandoorGrillBurger">Add To Cart</button>
+            </td>
+        </tr>
+    </table>
     <script src="./js/addToCart.js"></script>
 </body>
 </html>
