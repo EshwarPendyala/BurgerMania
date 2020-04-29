@@ -36,7 +36,7 @@ for(var i=0; i<cells.length;i++)
     cell.onclick = function(){
         
             var delIndex = this.parentNode.rowIndex;
-            burgerList.slice(delIndex);
+            burgerList.slice(delIndex+1);
             $('cartTable').deleteRow(this.parentNode.rowIndex);
             if(cells.length === 0)
             {
